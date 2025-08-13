@@ -1,4 +1,4 @@
 for i = 1, 40, 1 do
-  wait(1)
+  wait(5)
   loadstring(game:HttpGet("https://raw.githubusercontent.com/tesexrahy/Raws/refs/heads/main/GAG.txt"))()
 end
